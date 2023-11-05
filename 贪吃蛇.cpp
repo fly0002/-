@@ -73,7 +73,7 @@ public:
 			if (nodes[i].m_x == nodes[0].m_x && nodes[i].m_y == nodes[0].m_y)
 			{
 				HWND hnd = GetHWnd();
-				int isok = MessageBox(hnd, "很遗憾，你输了！\n是否再来一局", "游戏结束", MB_OK);
+				int isok = MessageBox(hnd, "寰堥仐鎲撅紝浣犺緭浜嗭紒\n鏄惁鍐嶆潵涓�灞�", "娓告垙缁撴潫", MB_OK);
 				if (isok == IDOK)
 				{
 					nodes.clear();
